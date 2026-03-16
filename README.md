@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+🎬  **PrimeFlix**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação SPA (Single Page Application) construída com React para explorar filmes populares utilizando a API do The Movie Database (TMDB).<br>
 
-## Available Scripts
+O projeto permite visualizar filmes em destaque, acessar detalhes completos de cada filme e salvar seus favoritos.
+<br><br>
+✨**Funcionalidades**
 
-In the project directory, you can run:
+✔️ Listagem de filmes populares <br>
+✔️ Página de detalhes do filme<br>
+✔️ Sistema de favoritos com localStorage<br>
+✔️ Navegação SPA com React Router<br>
+✔️ Página de erro (404)<br>
+✔️ Loading durante requisições<br>
+✔️ Notificações com React Toastify<br>
+✔️ Layout responsivo<br>
 
-### `npm start`
+🛠 **Tecnologias Utilizadas**<br>
+- Front-end<br>
+- React 18<br>
+- JavaScript (ES6+)<br>
+- JSX<br>
+- CSS3<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📚**Bibliotecas**  
+- React Router DOM<br>
+- Axios<br>
+- React Toastify<br>
+- API<br>
+- The Movie Database (TMDB)<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🧠 **Conceitos Aplicados**<br>
+- Componentização com React<br>
+- Hooks (useState, useEffect)<BR>
+- Consumo de API REST<BR>
+- Manipulação de rotas em SPA<BR>
+- Persistência de dados com localStorage<BR>
+- Renderização dinâmica com map()<BR>
+- Separação de responsabilidades em pastas<BR>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔗 **API Utilizada**
 
-### `npm run build`
+The Movie Database (TMDB)<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://www.themoviedb.org/<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📚  **Aprendizados**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Durante o desenvolvimento deste projeto foram praticados:<br>
 
-### `npm run eject`
+- Consumo de APIs externas<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Gerenciamento de estado com React Hooks<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Navegação entre páginas com React Router<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Estruturação de projetos React<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Persistência de dados no navegador<br>
